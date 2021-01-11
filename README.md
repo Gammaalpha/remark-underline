@@ -1,4 +1,4 @@
-# remark-abbr (IN DEVELOPMENT)
+# remark-abbr
 
 [remark](https://github.com/remarkjs/remark "remark github repo") plugin to parse custom Markdown syntax to produce abbreviations.
 
