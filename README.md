@@ -25,7 +25,7 @@ yarn:
 If we have the following file, example.md
 
 ```
-This is __underline__.
+This is !!underline!!.
 ```
 
 And the script example.js has the following code:
@@ -39,7 +39,7 @@ const rehypeStringify = require("rehype-stringify");
 
 unified()
   .use(remarkParse)
-  .use(RemarkUnderline, { marker: "__" })
+  .use(RemarkUnderline, { marker: "!!" })
   .use(remark2rehype)
   .use(rehypeStringify)
   .process(
@@ -57,11 +57,11 @@ This would output into the following HTML:
 
 ## Setup
 
-The custom marker for this plugin has been set to two underscores (__), but it can be replaced with any other one which is free to use. for example 
+The custom marker for this plugin has been set to two exclamation points (!!), but it can be replaced with any other one which is free to use. for example 
 
 ```javascript
 ...
-.use(RemarkUnderline, { marker: "!!" })
+.use(RemarkUnderline, { marker: "^^" })
 ...
 ```
 
