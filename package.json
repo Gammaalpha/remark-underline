@@ -1,0 +1,25 @@
+{
+  "name": "remark-underline",
+  "version": "1.0.0",
+  "description": "Remark plugin for underline support.",
+  "main": "index.js",
+  "dependencies": {
+    "mdast-util-find-and-replace": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gammaalpha/remark-underline.git"
+  },
+  "keywords": [
+    "remark",
+    "unifiedjs",
+    "Markdown",
+    "underline"
+  ],
+  "author": "Gammaalpha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gammaalpha/remark-underline/issues"
+  },
+  "homepage": "https://github.com/Gammaalpha/remark-underline#readme"
+}
