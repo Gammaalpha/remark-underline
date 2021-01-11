@@ -18,13 +18,17 @@ export const RemarkUnderline = (options?: any) => {
 
 const underlineNodeGenerator = (str: string) => {
     return {
-        type: 'content',
+        type: 'underline',
+        data: {
+            hName: 'ins',
+            hProperties: { className: 'underline' },
+            hChildren: [
+                { type: 'text', value: str }
+            ],
+        },
         children: [
             { type: 'text', value: str }
         ],
-        data: {
-            hName: 'u'
-        }
     }
 }
 
