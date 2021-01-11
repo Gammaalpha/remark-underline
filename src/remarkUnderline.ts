@@ -1,4 +1,3 @@
-let u = require('unist-builder');
 let findAndReplace = require('mdast-util-find-and-replace');
 
 export const RemarkUnderline = (options?: any) => {

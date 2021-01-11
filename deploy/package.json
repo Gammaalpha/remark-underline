@@ -4,8 +4,6 @@
   "description": "Remark plugin for abbreviation support.",
   "main": "index.js",
   "dependencies": {
-    "unist-builder": "^2.0.3",
-    "unist-util-remove": "^2.0.1",
     "mdast-util-find-and-replace": "^1.0.0"
   },
   "repository": {
