@@ -51,7 +51,7 @@ unified()
 This would output into the following HTML:
 
 ```html
-<p>This is <u>underline</u>.</p>
+<p>This is <ins>underline</ins>.</p>
 ```
 
 
